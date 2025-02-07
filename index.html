@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reinforcement Learning Grid Game</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; }
+        .grid { display: grid; grid-template-columns: repeat(5, 50px); grid-gap: 5px; margin: 20px auto; width: 275px; }
+        .cell { width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; border: 1px solid black; font-size: 24px; }
+        .player { background-color: blue; color: white; }
+        .goal { background-color: green; color: white; }
+        .wall { background-color: black; }
+    </style>
+</head>
+<body>
+    <h1>RL Grid Game</h1>
+    <p>Use arrow keys to move the agent (🟦) towards the goal (🏆).</p>
+    <div id="grid" class="grid"></div>
+    <canvas id="chartCanvas" width="400" height="200"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
