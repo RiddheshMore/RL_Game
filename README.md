@@ -37,10 +37,6 @@ A simple JavaScript-based RL environment where an agent learns to navigate a gri
    ```
 3. Open `http://localhost:8000` in your browser.
 
-### **Option 2: Open Directly in Browser**
-1. Simply open `index.html` in any modern web browser.
-
----
 
 ## 📂 Project Structure
 ```
